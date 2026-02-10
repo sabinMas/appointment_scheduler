@@ -7,7 +7,7 @@ app.use(expressstatic('public'));
 
 app.use(express.urlencoded({extended: true}));
 
-const orders =[];
+const appointments =[];
 
 app.get(`/` , (req, res) => {
     res.sendFile('home.html');
