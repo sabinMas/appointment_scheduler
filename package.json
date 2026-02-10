@@ -1,0 +1,24 @@
+{
+  "name": "appointment_scheduler",
+  "version": "1.0.0",
+  "description": "node app for appointment scheduler Mason and Yousif",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabinMas/appointment_scheduler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sabinMas/appointment_scheduler/issues"
+  },
+  "homepage": "https://github.com/sabinMas/appointment_scheduler#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
