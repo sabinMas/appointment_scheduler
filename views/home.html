@@ -4,29 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>appointment_scheduler</title>
-    <script src = "script.js"></script>
-    <link rel = "stylesheet" href = "styles.css">
+    <script src = "/JS/script.js" defer></script>
+    <link rel = "stylesheet" href = "/styles/styles.css">
 
 </head>
 <body>
-    <form>
+    <form id="appointment-form" action="/submit" method="post" novalidate>
     <fieldset>
         <legend>Appointment Scheduler</legend>
         <label for="fname">First Name:</label>
         <span class = "error" id = "fname-error">First name Required</span>
-        <input type="text" id="fname" name="fname" required><br><br>
+        <input type="text" id="fname" name="fname"><br><br>
 
         <label for="lname">Last Name:</label>
         <span class = "error" id = "lname-error">Last name Required</span>
-        <input type="text" id="lname" name="lname" required><br><br>
+        <input type="text" id="lname" name="lname"><br><br>
 
         <label for="date">Date:</label>
-        <span class = "error" id = "date-error">Date Required</span>
-        <input type="date" id="date" name="date" required><br><br>
+    
+        <input type="date" id="date" name="date"><br><br>
 
         <label for="time">Time:</label>
-        <span class = "error" id = "time-error">Time Required</span>
-        <input type="time" id="time" name="time" required><br><br>
+        <input type="time" id="time" name="time"><br><br>
 
         <input type="submit" value="Schedule Appointment">
     </fieldset>
